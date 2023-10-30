@@ -2,6 +2,7 @@ import concurrent.futures
 import argparse
 import os
 
+
 def search_keyword_in_file(file_path, keyword):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
